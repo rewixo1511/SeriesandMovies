@@ -1,3 +1,8 @@
+* {
+  margin: 1px;
+
+}
+
 img {
   border-radius: 8px;
   display: block;
@@ -5,4 +10,32 @@ img {
   margin-right: auto;
   width: 100px;
   height: auto;  
-}  
+  animation:ease-in;
+} 
+
+a:link {
+
+  colour: orange;
+  text-decoration: none;
+  
+}
+
+a:visited {
+  colour: #000000;
+  text-decoration: none;
+  
+}
+
+a:hover {
+
+  colour: #d9d9d9;
+  text-decoration:overline;
+
+}
+
+a:active {
+  
+  colour: #000000;
+  text-decoration: none;
+
+}
